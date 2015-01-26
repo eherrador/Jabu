@@ -1,0 +1,66 @@
+﻿@model WebAppMvcJabu.Models.RegisterViewModel
+<header>
+    <div style="width:100%; padding:10px; margin-top:20px; margin-bottom:10px; background-color:#1396e2; color:#ffffff;">
+        @ViewBag.Titulo
+    </div>
+</header>
+<section>
+    @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { id = "frmRegister" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <table style="width:100%;">
+            <tr>
+                <td>@Html.LabelFor(m => m.Email)</td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.TextBoxFor(m => m.Email, ViewBag.Disabled ? (object)new { @readonly = "readonly" } : new { })
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.Password)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.PasswordFor(m => m.Password)
+                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.ConfirmPassword)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.PasswordFor(m => m.ConfirmPassword)
+                    @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.Label("Roles")
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @foreach (var item in Model.RolesList)
+                    {
+                        <input type="checkbox" name="SelectedRoles" value="@item.Value" checked="@item.Selected" class="checkbox-inline" />
+                        @Html.Label(item.Value, new { @class = "control-label" })
+                    }
+                </td>
+            </tr>
+        </table>
+        <div style="margin:10px 0;">
+            <input type="submit" class="btn-register" value="Registrarse" />
+            <input type="button" class="btn-register" value="Cancelar" onclick="javascript: fn_CancelarRegistro();" />
+        </div>
+    }
+</section>

@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' type='text/css' />
+    <link rel="stylesheet" href="~/Content/fonts/font-awesome.css" type="text/css" />
+    <link rel="stylesheet" href="~/Content/bootstrap/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="~/Content/css/bootstrap-select.min.css" type="text/css" />
+    <link rel="stylesheet" href="~/Content/css/jquery.slider.min.css" type="text/css" />
+    <link rel="stylesheet" href="~/Content/css/owl.carousel.css" type="text/css" />
+    <link rel="stylesheet" href="~/Content/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="~/Content/css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="~/Content/css/jquery-ui.structure.min.css" />
+    <link rel="stylesheet" href="~/Content/css/view.listado.css" />
+    <link rel="stylesheet" href="~/Content/css/view.comparativo.css" />
+    <link rel="stylesheet" href="~/Content/css/view.detalles.css" />
+    <link rel="stylesheet" href="~/Content/css/jquery.gritter.css" />
+
+    <title>@ViewBag.Title</title>
+</head>
+<body class="page-homepage map-google horizontal-search-float" id="page-top" data-spy="scroll" data-target=".navigation" data-offset="90">
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <div class="navigation">
+            <div class="secondary-navigation">
+                <div class="container">
+                    @*<div class="contact">
+                        <figure><strong>Tel&eacute;fono:</strong>55 9000-7024 / 7025</figure>
+                        <figure><strong>Email:</strong>contacto@jabu.com.mx</figure>
+                    </div>*@
+                    @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                    {
+                    @Html.AntiForgeryToken()
+                    <div class="user-area">
+                        <a href="javascript:document.getElementById('logoutForm').submit()">Cerrar Sesión</a>
+                    </div>
+                    }
+                </div>
+            </div>
+            <div class="container">
+                <header class="navbar" id="top" role="banner">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-brand nav" id="brand">
+                            <img style="width:219px; height:auto;" src="~/Content/images/jabu-logo-small-mod.png" alt="Jabu 2.0">
+                        </div>
+                    </div>
+                    <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+                        <ul class="nav navbar-nav">
+                            <li id="li-busqueda"><a href="javascript:fn_MenuEventHandler('busqueda');">B&uacute;squeda</a></li>
+                            <li id="li-listado"><a href="javascript:fn_MenuEventHandler('listado');">Listado</a></li>
+                            <li id="li-detalles"><a href="javascript:fn_MenuEventHandler('detalles');">Detalles</a></li>
+                            <li id="li-comparativo"><a href="javascript:fn_MenuEventHandler('comparativo');">Comparativo</a></li>
+                            <li id="li-grafico"><a href="javascript:fn_MenuEventHandler('grafico');">Gr&aacute;fico</a></li>
+                            <li id="li-reporte"><a href="javascript:fn_MenuEventHandler('reporte');">Reporte</a></li>
+                            @if (HttpContext.Current.GetOwinContext().Authentication.User.IsInRole("Admin"))
+                            {
+                                <li id="li-usuarios"><a href="javascript:fn_MenuEventHandler('usuarios');">Usuarios</a></li>
+                            }
+                        </ul>
+                    </nav><!-- /.navbar collapse-->
+                </header>
+            </div>
+        </div>
+        @RenderBody()
+        <input id="filtro-ids" type="hidden" value="" />
+        <input id="simbologia-id" type="hidden" value="segmento" />
+        <!-- Page Footer -->
+        <footer id="page-footer">
+            <div class="inner">
+                <section id="footer-copyright">
+                    <div class="container">
+                        <span>Copyright © 2014. Todos los Derechos Reservados.</span>
+                        <div class="pull-right"><span>Email: contacto@jabu.com.mx</span><span style="margin-left:10px;">Tel&eacute;fono: 55 9000-7024 / 7025</span></div>
+                        @*<span class="pull-right"><a href="#page-top" class="roll">Ir Arriba</a></span>*@
+                    </div>
+                </section>
+            </div><!-- /.inner -->
+        </footer>
+        <!-- end Page Footer -->
+    </div>
+    <!-- end Wrapper -->
+    <script type="text/javascript" src="~/Content/js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery-ui.min.js"></script>
+    <!-- Google Maps Scripts -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyD9YF_M8stkyfZxCHAsTBK620ZjmIc85eY&sensor=false&libraries=drawing"></script>
+    <script src="~/Content/js/google.maps.circle.containsLatLng.js"></script>
+    <script src="~/Content/js/google.maps.polygon.containsLatLng.js"></script>
+    <!-- End Maps -->
+    <script type="text/javascript" src="~/Content/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="~/Content/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/smoothscroll.js"></script>
+    <script type="text/javascript" src="~/Content/js/markerwithlabel_packed.js"></script>
+    <script type="text/javascript" src="~/Content/js/infobox.js"></script>
+    <script type="text/javascript" src="~/Content/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="~/Content/js/icheck.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery.vanillabox-0.1.5.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/jshashtable-2.1_src.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery.numberformatter-1.2.3.js"></script>
+    <script type="text/javascript" src="~/Content/js/tmpl.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery.dependClass-0.1.js"></script>
+    <script type="text/javascript" src="~/Content/js/draggable-0.1.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery.slider.js"></script>
+    <script type="text/javascript" src="~/Content/js/markerclusterer_packed.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery.gritter.js"></script>
+    <script type="text/javascript" src="~/Content/js/custom-map.js"></script>
+    <script type="text/javascript" src="~/Content/js/custom.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    @RenderSection("scripts", false)
+
+    <!--[if gt IE 8]>
+    <script type="text/javascript" src="~/Content/js/ie.js"></script>
+    <![endif]-->
+    
+    <script>
+        function fn_MenuEventHandler(menuItem) {
+            var _simbologia = $("#simbologia-id").val();
+
+            switch (menuItem) {
+                case "busqueda":
+                    
+                    $(".panel-busqueda").css("display", "block");
+                    $(".panel-listado").css("display", "none");
+                    $(".panel-detalles").css("display", "none");
+                    $(".panel-comparativo").css("display", "none");
+                    $(".panel-usuarios").css("display", "none");
+
+                    $("#li-busqueda").attr("class", "active");
+
+                    $("#li-listado").removeClass();
+                    $("#li-detalles").removeClass();
+                    $("#li-comparativo").removeClass();
+                    $("#li-grafico").removeClass();
+                    $("#li-reporte").removeClass();
+                    $("#li-usuarios").removeClass();
+
+                    break;
+                case "listado":
+
+                    fn_LoadListInitialize();
+
+                    $(".panel-busqueda").css("display", "none");
+                    $(".panel-listado").css("display", "block");
+                    $(".panel-detalles").css("display", "none");
+                    $(".panel-comparativo").css("display", "none");
+                    $(".panel-usuarios").css("display", "none");
+                    
+                    $("#li-listado").attr("class", "active");
+
+                    $("#li-busqueda").removeClass();
+                    $("#li-detalles").removeClass();
+                    $("#li-comparativo").removeClass();
+                    $("#li-grafico").removeClass();
+                    $("#li-reporte").removeClass();
+                    $("#li-usuarios").removeClass();
+
+                    break;
+                case "detalles":
+                    
+                    var _id = $("#item-details").val();
+
+                    if (_id != "") {
+
+                        fn_LoadDetailsInitialize();
+
+                        $(".panel-busqueda").css("display", "none");
+                        $(".panel-listado").css("display", "none");
+                        $(".panel-detalles").css("display", "block");
+                        $(".panel-comparativo").css("display", "none");
+                        $(".panel-usuarios").css("display", "none");
+
+                        $("#li-detalles").attr("class", "active");
+
+                        $("#li-busqueda").removeClass();
+                        $("#li-listado").removeClass();
+                        $("#li-comparativo").removeClass();
+                        $("#li-grafico").removeClass();
+                        $("#li-reporte").removeClass();
+                        $("#li-usuarios").removeClass();
+
+                    }
+                    else
+                    {
+                        alert("No hay ningún elemento seleccionado en la pagina de Listado, si desea puede ver el detalle seleccionando un elemento.")
+                    }
+
+                    break;
+                case "comparativo":
+
+                    var _ids = $("#items-compared").val();
+
+                    if (_ids != "" && _ids.split(",").length == 3) {
+
+                        fn_LoadComparativoInitialize();
+
+                        $(".panel-busqueda").css("display", "none");
+                        $(".panel-listado").css("display", "none");
+                        $(".panel-detalles").css("display", "none");
+                        $(".panel-comparativo").css("display", "block");
+                        $(".panel-usuarios").css("display", "none");
+
+                        $("#li-comparativo").attr("class", "active");
+
+                        $("#li-busqueda").removeClass();
+                        $("#li-listado").removeClass();
+                        $("#li-detalles").removeClass();
+                        $("#li-grafico").removeClass();
+                        $("#li-reporte").removeClass();
+                        $("#li-usuarios").removeClass();
+
+                    }
+                    else {
+                        alert("Si desea puede ver el comparativo seleccionando tres elementos dentro del Listado.")
+                    }
+
+                    break;
+                case "grafico":
+                    @*window.location.href = '@Url.Action("Grafico", "Dashboard")';*@
+                    break;
+                case "reporte":
+                    @*window.location.href = '@Url.Action("Reporte", "Dashboard")';*@
+                    break;
+                case "usuarios":
+
+                    fn_LoadUsuariosInitialize();
+
+                    $(".panel-busqueda").css("display", "none");
+                    $(".panel-listado").css("display", "none");
+                    $(".panel-detalles").css("display", "none");
+                    $(".panel-comparativo").css("display", "none");
+                    $(".panel-usuarios").css("display", "block");
+                    
+                    $("#li-usuarios").attr("class", "active");
+
+                    $("#li-busqueda").removeClass();
+                    $("#li-listado").removeClass();
+                    $("#li-detalles").removeClass();
+                    $("#li-comparativo").removeClass();;
+                    $("#li-grafico").removeClass();
+                    $("#li-reporte").removeClass();
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>

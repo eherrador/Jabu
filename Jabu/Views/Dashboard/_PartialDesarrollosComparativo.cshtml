@@ -1,0 +1,161 @@
+﻿@model WebAppMvcJabu.Models.ComparativoViewModels
+<div class="container">
+    <header>
+        <div style="width:100%; padding:10px; margin-top:20px; margin-bottom:10px; background-color:#1396e2; color:#ffffff;">
+            Comparativo
+        </div>
+    </header>
+    <section>
+        <div style="background-color: #efefef; border:1px solid #e5e5e5; padding:15px;">
+            <div style="background-color:#fff; padding:5px; font-size:12px;">
+                <table class="tbl-desarrollos-comparativo">
+                    <tbody>
+                        @foreach (var DatosGeneralesItem in Model.ListDatosGenerales)
+                        {
+                            if (DatosGeneralesItem.Item1.Titulo == "Nombre")
+                            {
+                                <tr>
+                                    <td class="th-desarrollos-comparativo">@DatosGeneralesItem.Item1.Valor</td>
+                                    <td class="th-desarrollos-comparativo">@DatosGeneralesItem.Item2.Valor</td>
+                                    <td class="th-desarrollos-comparativo">@DatosGeneralesItem.Item3.Valor</td>
+                                    <td class="th-desarrollos-comparativo">@DatosGeneralesItem.Item4.Valor</td>
+                                </tr>
+                            }
+                            else if (DatosGeneralesItem.Item1.Titulo == "Segmento")
+                            {
+                                string _segmento = "";
+                                int _count = 1;
+                                foreach (var SegmentoItem in DatosGeneralesItem.Item1.Valor.Split('|'))
+                                {
+                                    if (_count == DatosGeneralesItem.Item1.Valor.Split('|').Length)
+                                    {_segmento += SegmentoItem;}
+                                    else
+                                    {  _segmento += SegmentoItem + "<br />";}
+                                } 
+                                <tr>
+                                    <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item1.Titulo</span>@Html.Raw(_segmento)</td>
+                                    <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item2.Titulo</span>@DatosGeneralesItem.Item2.Valor</td>
+                                    <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item3.Titulo</span>@DatosGeneralesItem.Item3.Valor</td>
+                                    <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item4.Titulo</span>@DatosGeneralesItem.Item4.Valor</td>
+                                </tr>
+                            }
+                            else if (DatosGeneralesItem.Item1.Titulo == "Tipo")
+                            {
+                                string _tipo = "";
+                                int _count = 1;
+                                foreach (var SegmentoItem in DatosGeneralesItem.Item1.Valor.Split('|'))
+                                {
+                                    if (_count == DatosGeneralesItem.Item1.Valor.Split('|').Length)
+                                    { _tipo += SegmentoItem; }
+                                    else
+                                    { _tipo += SegmentoItem + "<br />"; }
+                                }
+                                <tr>
+                                    <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item1.Titulo</span>@Html.Raw(_tipo)</td>
+                                    <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item2.Titulo</span>@DatosGeneralesItem.Item2.Valor</td>
+                                    <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item3.Titulo</span>@DatosGeneralesItem.Item3.Valor</td>
+                                    <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item4.Titulo</span>@DatosGeneralesItem.Item4.Valor</td>
+                                </tr>
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td><span>@DatosGeneralesItem.Item1.Titulo</span>@DatosGeneralesItem.Item1.Valor</td>
+                                    <td><span>@DatosGeneralesItem.Item2.Titulo</span>@DatosGeneralesItem.Item2.Valor</td>
+                                    <td><span>@DatosGeneralesItem.Item3.Titulo</span>@DatosGeneralesItem.Item3.Valor</td>
+                                    <td><span>@DatosGeneralesItem.Item4.Titulo</span>@DatosGeneralesItem.Item4.Valor</td>
+                                </tr>
+                            }
+                        }
+                        <tr>
+                            <td class="th-desarrollos-comparativo">Servicios</td>
+                            <td class="th-desarrollos-comparativo">Servicios</td>
+                            <td class="th-desarrollos-comparativo">Servicios</td>
+                            <td class="th-desarrollos-comparativo">Servicios</td>
+                        </tr>
+                        @foreach (var ServiciosItem in Model.ListServicios)
+                        {
+                            <tr>
+                                @if (ServiciosItem.Item1.Valor == "0")
+                                {
+                                    <td><i class="fa fa-times-circle"></i>@ServiciosItem.Item1.Titulo</td>
+                                }
+                                else
+                                {
+                                    <td><i class="fa fa-check-circle"></i>@ServiciosItem.Item1.Titulo</td>
+                                }
+                                @if (ServiciosItem.Item2.Valor == "0")
+                                {
+                                    <td><i class="fa fa-times-circle"></i>@ServiciosItem.Item2.Titulo</td>
+                                }
+                                else
+                                {
+                                    <td><i class="fa fa-check-circle"></i>@ServiciosItem.Item2.Titulo</td>
+                                }
+                                @if (ServiciosItem.Item3.Valor == "0")
+                                {
+                                    <td><i class="fa fa-times-circle"></i>@ServiciosItem.Item3.Titulo</td>
+                                }
+                                else
+                                {
+                                    <td><i class="fa fa-check-circle"></i>@ServiciosItem.Item3.Titulo</td>
+                                }
+                                @if (ServiciosItem.Item4.Valor == "0")
+                                {
+                                    <td><i class="fa fa-times-circle"></i>@ServiciosItem.Item4.Titulo</td>
+                                }
+                                else
+                                {
+                                    <td><i class="fa fa-check-circle"></i>@ServiciosItem.Item4.Titulo</td>
+                                }
+                            </tr>
+                        }
+                        <tr>
+                            <td class="th-desarrollos-comparativo">Amenidades</td>
+                            <td class="th-desarrollos-comparativo">Amenidades</td>
+                            <td class="th-desarrollos-comparativo">Amenidades</td>
+                            <td class="th-desarrollos-comparativo">Amenidades</td>
+                        </tr>
+                        @foreach (var AmenidadesItem in Model.ListAmenidades)
+                        {
+                            <tr>
+                                @if (AmenidadesItem.Item1.Valor == "0")
+                                {
+                                    <td><i class="fa fa-times-circle"></i>@AmenidadesItem.Item1.Titulo</td>
+                                }
+                                else
+                                {
+                                    <td><i class="fa fa-check-circle"></i>@AmenidadesItem.Item1.Titulo</td>
+                                }
+                                @if (AmenidadesItem.Item2.Valor == "0")
+                                {
+                                    <td><i class="fa fa-times-circle"></i>@AmenidadesItem.Item2.Titulo</td>
+                                }
+                                else
+                                {
+                                    <td><i class="fa fa-check-circle"></i>@AmenidadesItem.Item2.Titulo</td>
+                                }
+                                @if (AmenidadesItem.Item3.Valor == "0")
+                                {
+                                    <td><i class="fa fa-times-circle"></i>@AmenidadesItem.Item3.Titulo</td>
+                                }
+                                else
+                                {
+                                    <td><i class="fa fa-check-circle"></i>@AmenidadesItem.Item3.Titulo</td>
+                                }
+                                @if (AmenidadesItem.Item4.Valor == "0")
+                                {
+                                    <td><i class="fa fa-times-circle"></i>@AmenidadesItem.Item4.Titulo</td>
+                                }
+                                else
+                                {
+                                    <td><i class="fa fa-check-circle"></i>@AmenidadesItem.Item4.Titulo</td>
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</div>

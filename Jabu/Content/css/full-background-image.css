@@ -1,0 +1,239 @@
+html, body, .container {
+    height: 100%;
+}
+
+/* Reset */
+html, body, h1, p, a, div, section {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Location of the image */
+    background-image: url(../images/background-photo-1.jpg);
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color: #fff;
+    /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */           
+}
+
+/* For mobile devices */
+/*@media only screen and (max-width: 767px) {
+    body {*/
+        /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+        /*background-image: url(../images/background-photo-mobile-devices.jpg);
+    }
+}*/
+
+/* Layout */
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 40px;
+    z-index: 9999;
+    position: fixed;
+}
+
+.navbar-container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.inner {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.left {
+    display: inline;
+    float: left;
+}
+
+.right {
+    display: inline;
+    float: right;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+    .navbar a:active {
+        color: #464646;
+    }
+
+.container {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.centered{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    text-align:center;
+    width: 260px;
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 5%;
+}
+
+#register-form {
+    color:rgba(0, 0, 0, 0.6);
+}
+
+#login-form {
+    display: none;
+    color:rgba(0, 0, 0, 0.6);
+}
+
+    #login-form p {
+        font-size: 12pt;
+    }
+
+#login-home img {
+    width: 174px;
+    height: auto;
+}
+
+#login-home p {
+    margin-top: 20px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #808080;
+}
+
+#login-home a {
+    display: inline-block;
+    background-color: #1395E0;
+    color: #fff;
+    font-size: 12pt;
+    padding: 10px 100px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+    #login-home a:active {
+        background-color: #0E6CA5;
+    }
+
+.text-danger {
+    color:#ef0000;
+    font-size: 12px;
+}
+
+.text-danger ul {
+    padding:0px;
+    list-style-type:none;
+}
+
+.text-danger ul li {
+    color:#ef0000;
+    font-size: 12px;
+}
+
+#about-container {
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+#about-dialog {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    height: 600px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 5%;
+    text-align: center;
+    color: #464646;
+}
+
+    #about-dialog h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #about-dialog p {
+        text-align: left;
+        font-size: 15px;
+    }
+
+.form-group{
+    margin:0 0 20px 0;
+    text-align:left;
+    font-size: 11pt;
+}
+
+.form-control{
+    width:100%;
+}
+
+.col-md-10 input[type=text], input[type=password]{
+    height: 30px;
+    padding: 5px;
+    box-sizing:border-box;
+}
+
+.btn-register {
+    background-color: #1395E0;
+    color: #fff;
+    font-size: 12pt;
+    border: 0;
+    padding: 8px 0;
+    width: 100%;
+}
+
+.btn-login {
+    background-color: #1395E0;
+    color: #fff;
+    font-size: 12pt;
+    border: 0;
+    padding: 8px 0;
+    width: 100%;
+}
+
+#btn-cancel {
+    display: block;
+    background-color: #1395E0;
+    color: #fff;
+    font-size: 12pt;
+    border: 0;
+    padding: 8px 0px;
+    text-decoration: none;
+    width: 100%;
+}
+    #btn-cancel:active {
+        background-color: #0E6CA5;
+    }

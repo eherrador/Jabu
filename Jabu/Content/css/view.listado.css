@@ -1,0 +1,121 @@
+﻿/*
+    Estilos corespondientes a la funcionalidad de Drag and Drop
+    dentro de la vista /Dashboard/Listado
+*/
+.drop-zone {
+    font-size: 11px;
+    min-height: 400px;
+    background-color: #efefef;
+    border: 1px solid #e5e5e5;
+    padding: 0 15px;
+}
+
+.hover-zone-drop {
+    background-color: #cbcbcb;
+}
+
+.drop-zone-row {
+    margin: 15px 0;
+}
+
+.drop-zone-cell {
+    padding: 5px;
+    text-align: right;
+    border: 1px solid #e5e5e5;
+}
+
+.drop-zone-group {
+    margin: 15px auto;
+    background-color: #fefefe;
+    padding: 5px;
+}
+
+    .drop-zone-group a {
+        text-align: center;
+        font-size: 13px;
+        color: #ffffff;
+        width: 100%;
+        background-color: #1396e2;
+        padding: 5px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    .drop-zone-group ul {
+        padding: 0px !important;
+        margin: 0px !important;
+        list-style-type: none;
+        display: inline;
+    }
+
+        .drop-zone-group ul li {
+            padding: 5px;
+            border-bottom: 1px solid #cbcbcb;
+        }
+
+            .drop-zone-group ul li:first-child {
+                background-color: #c3c3c3;
+                color: #ffffff;
+                border: none;
+            }
+
+            .drop-zone-group ul li span {
+                font-size: 13px;
+            }
+/*
+    Fin de Estilos Drag an Drop.
+*/
+
+.tbl-list-desarrollos {
+    width: 100%;
+}
+
+    .tbl-list-desarrollos thead {
+        font-size: 11px;
+        font-weight: lighter;
+        color: #707083;
+        /*text-shadow: 1px 1px 0px #ffffff;*/
+        background-color: #e5e5e9;
+    }
+
+        .tbl-list-desarrollos thead tr th {
+            padding: 5px;
+            border: 1px solid #c4c4cd;
+            cursor: pointer;
+        }
+
+    .tbl-list-desarrollos tbody {
+        font-size: 10px;
+    }
+
+        .tbl-list-desarrollos tbody tr {
+            cursor: move;
+        }
+
+            .tbl-list-desarrollos tbody tr td {
+                padding: 5px;
+                border: 1px solid #e5e5e5;
+            }
+
+    .tbl-list-desarrollos tfoot tr td {
+        padding: 10px;
+        text-align: center;
+    }
+
+        .tbl-list-desarrollos tfoot tr td ul {
+            display: inline;
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+        }
+
+            .tbl-list-desarrollos tfoot tr td ul li {
+                display: inline;
+                padding: 4px 10px;
+                border: 1px solid #dddddd;
+                cursor: pointer;
+            }
+
+.tr-list-selected {
+    background-color: #c3c3c3 !important;
+}

@@ -1,0 +1,88 @@
+﻿@model WebAppMvcJabu.Models.DetallesViewModels
+
+<div class="container">
+    <header>
+        <div style="width:100%; padding:10px; margin-top:20px; margin-bottom:10px; background-color:#1396e2; color:#ffffff;">
+            Proyecto
+        </div>
+    </header>
+    <section>
+        <table style="width:100%;">
+            <tbody>
+                <tr style="background-color: #efefef; border:1px solid #e5e5e5;">
+                    <td style="width:33.3%; padding:15px; vertical-align:top;">
+                        <div class="project-list" style="background-color:#fff; padding:5px;">
+                            <ul>
+                                <li>Datos Generales</li>
+                                @foreach (var item in Model.ListDatosGenerales)
+                                {
+                                    <li>@item.Titulo<br /><span>@item.Valor</span></li>
+                                }
+                            </ul>
+                        </div>
+                    </td>
+                    <td style="width:33.3%; padding:15px; vertical-align:top;">
+                        <div class="project-list-two" style="background-color:#fff; padding:5px;">
+                            <ul>
+                                <li>Servicios</li>
+                                @foreach (var item in Model.ListServicios)
+                                {
+                                    <li><i class="fa fa-check-square"></i><span>@item.Titulo</span></li>
+                                }
+                            </ul>
+                        </div>
+                    </td>
+                    <td style="width:33.3%; padding:15px; vertical-align:top;">
+                        <div class="project-list-two" style="background-color:#fff; padding:5px;">
+                            <ul>
+                                <li>Amenidades</li>
+                                @foreach (var item in Model.ListAmenidades)
+                                {
+                                    <li><i class="fa fa-check-square"></i><span>@item.Titulo</span></li>
+                                }
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <header>
+        <div style="width:100%; padding:10px; margin-top:20px; margin-bottom:10px; background-color:#1396e2; color:#ffffff;">
+            Producto
+        </div>
+    </header>
+    <section>
+        <div style="background-color: #efefef; border:1px solid #e5e5e5; padding:15px;">
+            <div style="background-color:#fff; padding:5px;">
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <td style="width:14.2%; padding:10px 5px 5px 5px; background-color:#073855; color:#fff; text-align:center;">Nombre</td>
+                            <td style="width:14.2%; padding:10px 5px 5px 5px; background-color:#073855; color:#fff; text-align:center;">Tipo</td>
+                            <td style="width:14.2%; padding:10px 5px 5px 5px; background-color:#073855; color:#fff; text-align:center;">Área</td>
+                            <td style="width:14.2%; padding:10px 5px 5px 5px; background-color:#073855; color:#fff; text-align:center;">Precio</td>
+                            <td style="width:14.2%; padding:10px 5px 5px 5px; background-color:#073855; color:#fff; text-align:center;">Recámaras</td>
+                            <td style="width:14.2%; padding:10px 5px 5px 5px; background-color:#073855; color:#fff; text-align:center;">Baños</td>
+                            <td style="width:14.2%; padding:10px 5px 5px 5px; background-color:#073855; color:#fff; text-align:center;">Cajones</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.ListPrototipos)
+                        {
+                            <tr>
+                                <td style="text-align:center; padding:10px; border-bottom: 1px solid #e5e5e5;">@item.Nombre</td>
+                                <td style="text-align:center; padding:10px; border-bottom: 1px solid #e5e5e5;">@item.Tipo</td>
+                                <td style="text-align:center; padding:10px; border-bottom: 1px solid #e5e5e5;">@item.Superficie</td>
+                                <td style="text-align:center; padding:10px; border-bottom: 1px solid #e5e5e5;">@string.Format("{0:C}", item.Precio)</td>
+                                <td style="text-align:center; padding:10px; border-bottom: 1px solid #e5e5e5;">@item.Recamaras</td>
+                                <td style="text-align:center; padding:10px; border-bottom: 1px solid #e5e5e5;">@item.Banos</td>
+                                <td style="text-align:center; padding:10px; border-bottom: 1px solid #e5e5e5;">@item.Cajones</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</div>

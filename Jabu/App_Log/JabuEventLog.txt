@@ -1,0 +1,2130 @@
+==============================================================================
+Fecha: [30/12/2014 02:01:18 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:01:18 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:01:18 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:01:18 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:01:18 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:01:43 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Jabu Mapa. Selecciono un marcador en el mapa.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:02:24 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Jabu Mapa. Se creo forma cilcular de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:02:48 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Jabu Mapa. Se modifico la posición de la forma cilcular de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:03:35 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Jabu Mapa. Se modifico el radio de la forma cilcular de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:04:11 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Jabu Mapa. Se elimino forma cilcular de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:04:34 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Jabu Mapa. Se creo forma de polígono de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:05:01 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Jabu Mapa. Se modifico la forma de polígono de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:05:36 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Jabu Mapa. Se modifico forma de polígono de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:05:55 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Jabu Mapa. Se elimino forma de polígono de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:06:27 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Jabu Mapa. Se creo forma de polígono de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:06:35 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:06:35 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Se obtiene lista de Desarrollos por pagina y numero de renglones.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:07:19 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:07:19 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtienen los Prototipos del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:07:56 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle promedio de los Desarrollos correspondientes.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:07:56 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:07:56 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:07:56 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:08:36 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:08:36 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtienen los Prototipos del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:08:44 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Jabu Mapa. Se elimino forma de polígono de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:08:47 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [30/12/2014 02:08:47 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Se obtiene lista de Desarrollos por pagina y numero de renglones.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:16:32 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:16:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:16:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:16:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:16:34 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:27:20 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:27:21 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:27:21 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:27:21 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:27:21 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:50:56 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:50:56 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:51:00 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:51:00 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:51:00 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:51:59 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:51:59 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:51:59 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 10:51:59 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:08:38 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:08:38 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Se obtiene lista de Desarrollos por pagina y numero de renglones.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:08:53 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:08:53 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtienen los Prototipos del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:08:59 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:08:59 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtienen los Prototipos del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:08 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:08 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtienen los Prototipos del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:20 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:20 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtienen los Prototipos del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:27 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle promedio de los Desarrollos correspondientes.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:27 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:27 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:27 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:41 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle promedio de los Desarrollos correspondientes.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:41 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:41 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:41 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:46 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:09:46 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtienen los Prototipos del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:10:11 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:10:11 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtienen los Prototipos del Desarrollo seleccionado.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:17:32 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:17:32 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:17:32 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:17:32 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:17:32 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:18:31 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:18:31 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:18:31 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:18:32 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:19:37 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:19:37 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:19:37 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:19:37 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:36:03 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:36:03 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:36:03 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:36:03 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:36:03 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:56:19 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:56:19 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:56:19 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:56:19 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [01/01/2015 11:56:19 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:05:33 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:05:33 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:05:33 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:05:33 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:05:33 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:16:56 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:16:56 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:16:57 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:16:57 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:16:57 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:25:24 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:25:24 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:25:24 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:25:24 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:32:35 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:32:35 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:32:35 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:32:35 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:32:35 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:34:46 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:34:46 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:34:46 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:34:46 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:34:46 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:51:41 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:51:42 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:51:42 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:51:42 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:51:42 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:52:22 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:52:22 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:52:22 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:52:22 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:59:05 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:59:05 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:59:05 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:59:05 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 12:59:05 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:06:37 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:06:37 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:06:37 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:06:37 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:07:56 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:07:56 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:07:56 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:07:56 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:15:53 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:15:54 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:15:54 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:15:54 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:15:54 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:20:13 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:20:13 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:20:13 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:20:13 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:23:40 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:23:40 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:23:40 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:23:40 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:25:34 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:25:34 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:25:34 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:25:34 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:25:34 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:54:53 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:54:53 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:54:53 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:54:53 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:54:53 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:59:10 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:59:10 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:59:11 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 01:59:11 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 02:02:40 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 02:02:40 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 02:02:40 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 02:02:40 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 02:33:47 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 02:33:47 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 02:33:47 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 02:33:47 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 02:33:48 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:01:39 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:01:39 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:01:39 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:01:39 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:01:39 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:03:17 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:03:17 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:03:17 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:03:17 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:04:22 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:04:22 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:04:22 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:04:22 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:05:46 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:05:46 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:05:46 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:05:46 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:07:44 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:07:45 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:07:45 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:07:45 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:07:45 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:09:18 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:09:18 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:09:18 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:09:18 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:57:15 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:57:15 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:57:15 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:57:15 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 03:57:15 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:02:24 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:02:24 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:02:24 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:02:25 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:05:13 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:05:13 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:05:13 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:05:13 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:06:37 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:06:37 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:06:37 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:06:37 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:07:30 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:07:30 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:07:30 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:07:30 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:08:00 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:08:00 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:08:00 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:08:00 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:08:00 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:08:34 a.m.]
+Usuario: user1@gmail.com
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:08:34 a.m.]
+Usuario: user1@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:08:34 a.m.]
+Usuario: user1@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:08:34 a.m.]
+Usuario: user1@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:08:34 a.m.]
+Usuario: user1@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:10:19 a.m.]
+Usuario: user1@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:10:19 a.m.]
+Usuario: user1@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:10:19 a.m.]
+Usuario: user1@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:10:19 a.m.]
+Usuario: user1@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:10:44 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:10:44 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:10:44 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:10:44 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:10:44 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:22:13 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:22:13 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:22:13 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:22:13 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:22:13 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:23:28 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:23:28 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:23:28 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:23:28 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:42:28 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:42:28 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:42:29 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:42:29 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:42:30 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:48:52 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:48:52 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:48:52 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:48:52 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:48:52 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:56:43 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:56:43 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:56:43 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:56:43 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 04:56:43 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 05:07:16 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 05:07:17 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 05:07:17 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 05:07:17 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [02/01/2015 05:07:17 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:08:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:08:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:08:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:08:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:08:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:17:01 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:17:01 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:17:01 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:17:01 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:17:01 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:26:35 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:26:35 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:26:35 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:26:35 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:26:35 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:30:23 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:30:23 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:30:23 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:30:23 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:30:23 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:36:38 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:36:38 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:36:38 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:36:38 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:36:38 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:39:39 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:39:40 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:39:40 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:39:40 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:39:40 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:44:49 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:44:50 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:44:50 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:44:50 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:44:50 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:50:03 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:50:04 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:50:04 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:50:04 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:50:04 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:55:45 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:55:45 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:55:45 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:55:45 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:55:45 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:57:54 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:57:54 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:57:54 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 04:57:54 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:02:39 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:02:39 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:02:39 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:02:39 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:06:05 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:06:06 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:06:06 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:06:06 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:06:06 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:07:54 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:07:55 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:07:55 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:07:55 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 05:07:55 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:20:37 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:20:37 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:20:38 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:20:38 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:20:38 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:22:26 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:22:26 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:22:26 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:22:26 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:22:26 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:25:34 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:25:34 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:25:34 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:25:34 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:25:34 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:30:50 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:30:50 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:30:50 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:30:50 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:30:50 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:38:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:38:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:38:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:38:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:38:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:40:15 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:40:16 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:40:16 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:40:16 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:40:16 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:42:56 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:42:56 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:42:56 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:42:56 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:42:56 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:51:03 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:51:03 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:51:03 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:51:03 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:51:03 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:54:53 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:54:53 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:54:53 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:54:53 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 06:54:53 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:01:52 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:01:52 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:01:52 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:01:52 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:01:52 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:02:50 p.m.]
+Usuario: user5@gmail.com
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:02:50 p.m.]
+Usuario: user5@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:02:50 p.m.]
+Usuario: user5@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:02:50 p.m.]
+Usuario: user5@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:02:50 p.m.]
+Usuario: user5@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:03:15 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:03:15 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:03:15 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:03:15 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:03:15 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:07:40 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:07:40 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:07:40 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:07:40 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:07:40 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:11:00 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:11:00 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:11:00 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:11:00 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:15:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:15:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:15:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:15:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:15:33 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:50:48 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:50:48 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:50:48 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:50:48 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [04/01/2015 07:50:48 p.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:06:09 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:06:09 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:06:09 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:06:09 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:06:10 a.m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:09:54 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:09:55 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:09:55 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:09:55 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:09:55 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:27:23 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:27:23 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:27:23 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:27:23 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [05/01/2015 11:27:24 a.m.]
+Usuario: ecanordgz@gmail.com
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================

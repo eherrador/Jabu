@@ -1,0 +1,93 @@
+﻿@model WebAppMvcJabu.Models.ListadoViewModels
+
+<section id="results">
+    <div style="width:100%; padding:10px; margin-top:20px; margin-bottom:10px; background-color:#1396e2; color:#ffffff;">
+        Listado de Desarrollos
+    </div>
+    <table class="tbl-list-desarrollos">
+        <thead>
+            <tr>
+                <th style="display:none;"></th>
+                <th><a href="javascript:fn_TableSorting('desarrollo');">Desarrollo</a></th>
+                <th><a href="javascript:fn_TableSorting('tipo');">Tipo</a></th>
+                <th><a href="javascript:fn_TableSorting('segmento');">Segmento</a></th>
+                <th><a href="javascript:fn_TableSorting('unids_totales');">U. Totales</a></th>
+                <th><a href="javascript:fn_TableSorting('unids_disponibles');">U. Disponibles</a></th>
+                <th><a href="javascript:fn_TableSorting('absorcion');">Absorción</a></th>
+                <th><a href="javascript:fn_TableSorting('superficie');">Superficie Promedio</a></th>
+                <th><a href="javascript:fn_TableSorting('precio');">Precio Promedio</a></th>
+                <th><a href="javascript:fn_TableSorting('precio_metro');">Promedio por m²</a></th>
+            </tr>
+        </thead>
+        <tbody id="grd-desarrollos">
+            @{
+                int _contador = 1;
+                foreach (var desarrollo in Model.Desarrollos)
+                {
+                    string _bgcolor = "#ffffff";
+
+                    if ((_contador % 2) == 0)
+                    {
+                        _bgcolor = "#efefef";
+                    }
+                    <tr style="background-color:@_bgcolor">
+                        <td class="grd-cell-id" style="display:none;">@desarrollo.Id</td>
+                        <td class="grd-cell-nombre" style="width:140px;">@desarrollo.Nombre</td>
+                        <td class="grd-cell-tipo" style="width:90px;">@desarrollo.TipoConstruccion</td>
+                        <td class="grd-cell-segmento">@desarrollo.TipoSegmento</td>
+                        <td class="grd-cell-unidstotales" style="text-align:right;">@desarrollo.UnidadesTotales</td>
+                        <td class="grd-cell-unidsdisponibles" style="text-align:right;">@desarrollo.UnidadesDisponibles</td>
+                        <td class="grd-cell-absorcion" style="text-align:right;">@desarrollo.Absorcion</td>
+                        <td class="grd-cell-superficie" style="text-align:right;">@desarrollo.SuperficieConstruccion m²</td>
+                        <td class="grd-cell-precio" style="text-align:right;">@string.Format("{0:C}", desarrollo.PrecioActualizado)</td>
+                        <td class="grd-cell-preciometro" style="text-align:right;">@string.Format("{0:C}", desarrollo.PrecioMetroCuadrado)</td>
+                    </tr>
+                    _contador++;
+                }
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="10">
+                    <ul>
+                        <li><a href="javascript:fn_TablePaging(1);">Primera</a></li>
+                        @{
+                            int _paginaAnterior = Model.PaginaActual > 1 ? Model.PaginaActual - 1 : Model.PaginaActual;
+                            int _paginaSiguiente = Model.PaginaActual < Model.PaginasTotales ? Model.PaginaActual + 1 : Model.PaginaActual;
+
+                            <li><a href="javascript:fn_TablePaging(@_paginaAnterior);">← Anterior</a></li>
+
+                            if (Model.PaginaActual - 5 > 0)
+                            {
+                                <li style="cursor:default !important;">...</li>
+                            }
+
+                            int _paginasMaximas = Model.PaginaActual > 5 ? Model.PaginaActual : Model.PaginasTotales <= 5 ? Model.PaginasTotales : 5;
+                            int _paginasMinimas = Model.PaginaActual > 5 ? Model.PaginaActual - 4 : 1;
+
+                            for (int i = _paginasMinimas; i <= _paginasMaximas; i++)
+                            {
+                                if (Model.PaginaActual == i)
+                                {
+                                    <li style="background-color:#dddddd; cursor:default !important;">@i</li>
+                                }
+                                else
+                                {
+                                    <li><a href="javascript:fn_TablePaging(@i);">@i</a></li>
+                                }
+                            }
+
+                            if (Model.PaginasTotales > 5 && Model.PaginaActual != Model.PaginasTotales)
+                            {
+                                <li style="cursor:default !important;">...</li>
+                            }
+
+                            <li><a href="javascript:fn_TablePaging(@_paginaSiguiente);">Siguiente →</a></li>
+                        }
+                        <li><a href="javascript:fn_TablePaging(@Model.PaginasTotales);">Ultima</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</section>

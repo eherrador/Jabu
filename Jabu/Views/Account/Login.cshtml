@@ -1,0 +1,162 @@
+﻿@using WebAppMvcJabu.Models
+@model LoginViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link rel="stylesheet" href="~/Content/css/full-background-image.css" />
+    <script src="~/Content/js/jquery-2.1.0.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var img_array = [3, 2, 1];
+            var index = 0;
+            var interval = 10000;
+
+            setInterval(function () {
+                var uri = '../Content/images/background-photo-' + img_array[index++ % img_array.length] + '.jpg';
+                $('#full-page').fadeIn(200, function () {
+                    $('body').css('background-image', 'url(' + uri + ')');
+                    $('#full-page').fadeOut(200);
+                });
+            }, interval);
+
+            $("#btn-about").click(function () {
+                $("#about-container").css("display", "block");
+            });
+            $("#btn-about-close").click(function () {
+                $("#about-container").css("display", "none");
+            });
+            $("#btn-entrar").click(function () {
+                $("#login-home").css("display", "none");
+                $("#login-form").css("display", "block");
+            });
+            $("#btn-cancel").click(function () {
+                $("#login-home").css("display", "block");
+                $("#login-form").css("display", "none");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="full-page" style="position:absolute; top:0; left:0; right:0; bottom:0; background:#000; display:none;">
+    </div>
+    <nav class="navbar" id="top">
+        <div class="navbar-container">
+            <div class="left">
+                <a href="http://www.sivan.com.mx">SIVAN</a>
+            </div>
+            <div class="right">
+                <a id="btn-about">ACERCA DE</a>
+            </div>
+        </div>
+    </nav>
+    <header class="container">
+        <section class="content">
+            <div class="centered">
+                <div id="login-home">
+                    <img src="~/Content/images/jabu-logo-small.png" />
+                    <p>Conocimiento del Mercado Inmobiliario</p>
+                    <a id="btn-entrar">Entrar</a>
+                </div>
+                <div id="login-form">
+                    @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                        @Html.AntiForgeryToken()
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Email, new { @class = "control-label" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Password, new { @class = "control-label" })
+                            <div class="col-md-10">
+                                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div style="margin-bottom:10px;">
+                            <input type="submit" value="Iniciar sesión" class="btn-login" />
+                        </div>
+                        <div style="margin-bottom:20px;">
+                            <a id="btn-cancel">Cancelar</a>
+                        </div>
+                        <p>
+                            ¿Has olvidado tu contraseña?
+                        </p>
+                        @*
+                    <p>
+                        @Html.ActionLink("Registrar como nuevo usuario", "Register")
+                    </p>*@
+                        @* Habilite esta opción después de habilitar la confirmación de la cuenta para la función de restablecimiento de contraseña
+                    <p>
+                        @Html.ActionLink("¿Ha olvidado su contraseña?", "ForgotPassword")
+                    </p>*@
+                }
+                </div>
+            </div>
+        </section>
+    </header>
+    <div id="about-container">
+        <div id="about-dialog">
+            <div style="display:block; text-align:right; padding-right:10px; padding-top:10px;">
+                <a id="btn-about-close"><img style="width:30px; height:auto;" src="~/Content/images/about-close.png" /></a>
+            </div>
+            <div style="display:block; margin-left: 20px; margin-right:20px; background-color: #808080;">
+                <h1 style="color:#fff;">Jabu® 2.0</h1>
+            </div>
+            <div style="display:block; margin-left: 20px; margin-right:20px; padding:20px;">
+                <p>
+                    Facilitamos la comprensión del Mercado Inmobiliario mediante el uso de las capacidades del
+                    Internet y apoyamos a su empresa con información actualizada y confiable junto a un análisis
+                    tabular, geoespacial y gráfico.
+                </p>
+                <br />
+                <p><span style="font-weight:bold">¿Qué es Jabu®?</span></p>
+                <p>
+                    Es un instrumento que permite el acceso a la información y análisis del Mercado de Vivienda
+                    nueva aprovechando las capacidades de Internet. También es un sistema de monitoreo y verificación
+                    del comportamiento de proyectos Inmobiliarios.
+                </p>
+                <br />
+                <p><span style="font-weight:bold">¿Qué hace Jabu®?</span></p>
+                <p>
+                    Provee acceso Instantáneo a información detallada, actualizada y confiable referente a la
+                    oferta de vivienda nueva.
+                </p>
+                <p>
+                    Te permite seleccionar hasta 3 desarrollos simultáneos y contrastar todas sus características.
+                </p>
+                <p>
+                    Incorpora el potencial de un sistema de información geográfica sin la inversión en tiempo y
+                    recursos para implantar uno propio.
+                </p>
+                <p>
+                    Identifica las oportunidades de negocio mapas creados en forma sencilla y clara
+                </p>
+                <p>
+                    Permite el monitoreo periódico de la Competencia por segmento, estrato, tipo, ubicación o
+                    combinaciones de estas.
+                </p>
+                <p>
+                    Se actualiza en forma trimestral, guarda la información histórica y del comportamiento de
+                    todas las ofertas de vivienda nueva.
+                </p>
+            </div>
+            <div style="display:block; text-align:center; padding-right:10px; padding-top:10px;">
+                <img src="~/Content/images/sivan-logo.png" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

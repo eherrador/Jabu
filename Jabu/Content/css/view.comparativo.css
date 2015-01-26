@@ -1,0 +1,40 @@
+﻿.tbl-desarrollos-comparativo {
+    width: 100%;
+}
+
+    .tbl-desarrollos-comparativo tbody tr td {
+        width: 25%;
+        padding: 10px;
+        border-bottom: 1px solid #e5e5e5;
+        text-align: left;
+    }
+
+        .tbl-desarrollos-comparativo tbody tr td span {
+            display: block;
+            font-size: 9px !important;
+            font-weight: bold !important;
+        }
+
+        .tbl-desarrollos-comparativo tbody tr td .fa-check-circle {
+            font-size: 14px;
+            color: #1396e2;
+            margin-right: 10px;
+        }
+
+        .tbl-desarrollos-comparativo tbody tr td .fa-times-circle {
+            font-size: 14px;
+            margin-right: 10px;
+        }
+
+    .tbl-desarrollos-comparativo .th-desarrollos-comparativo {
+        padding: 10px 5px 5px 5px;
+        background-color: #073855;
+        color: #fff;
+        text-align: center !important;
+        font-size: 14px !important;
+        border: none !important;
+    }
+
+    .tbl-desarrollos-comparativo tbody tr:last-child td {
+        border: none !important;
+    }

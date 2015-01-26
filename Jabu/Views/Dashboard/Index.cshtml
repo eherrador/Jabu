@@ -1,0 +1,351 @@
+﻿@model WebAppMvcJabu.Models.BusquedaViewModels
+@{
+    ViewBag.Title = "Jabu - Inteligencia Inmobiliaria";
+}
+<!-- Panel Busqueda -->
+<div class="panel-busqueda">
+    <div class="container">
+        <div class="geo-location-wrapper">
+            <div class="find-filters">
+                <div class="segmento" style="font-size: 11px;">
+                    <div class="filter-move">
+                        Segmento
+                    </div>
+                    <table>
+                        <tr>
+                            <td style="background-color: #65CAA2; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Residencial Plus</td>
+                            <td style="padding-left: 10px;">Mayor a</td>
+                            <td style="padding-left: 10px">-</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 6).MinimoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 6).MinimoEnPesos)</td>*@
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="5"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #F08B57; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Residencial</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 5).MinimoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 5).MinimoEnPesos)</td>*@
+                            <td style="padding-left: 10px">-</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 5).MaximoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 5).MaximoEnPesos)</td>*@
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="5"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #89A7DB; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Media</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 4).MinimoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 4).MinimoEnPesos)</td>*@
+                            <td style="padding-left: 10px">-</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 4).MaximoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 4).MaximoEnPesos)</td>*@
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="5"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #E08FC2; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Tradicional</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 3).MinimoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 3).MinimoEnPesos)</td>*@
+                            <td style="padding-left: 10px">-</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 3).MaximoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 3).MaximoEnPesos)</td>*@
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="5"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #A7D034; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Popular</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 2).MinimoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 2).MinimoEnPesos)</td>*@
+                            <td style="padding-left: 10px">-</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 2).MaximoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 2).MaximoEnPesos)</td>*@
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="5"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #FBC938; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Econ&oacute;mica</td>
+                            <td style="padding-left: 10px;">Menor a</td>
+                            <td style="padding-left: 10px">-</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 1).MaximoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 1).MaximoEnPesos)</td>*@
+                        </tr>
+                    </table>
+                </div>
+                <div class="tipo" style="display:none; font-size: 11px;">
+                    <div class="filter-move">
+                        Tipo
+                    </div>
+                    <table>
+                        <tr>
+                            <td style="background-color: #A5A9B2; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Departamento</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #DCB780; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Loft</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #FBC637; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Penthouse</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #A3CB37; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Town House</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #E48FC2; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Casa</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #81A4D4; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Duplex</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #F38D57; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Cuadruplex</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #FF4D00; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Condominio Horizontal</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #000000; width: 30px;"></td>
+                            <td style="padding-left: 10px;">Villa</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="superficie" style="display:none; font-size: 11px;">
+                    <div class="filter-move">
+                        Superficie
+                    </div>
+                    <table>
+                        <tr>
+                            <td style="background-color: #4E9520; width: 30px;"></td>
+                            <td style="padding-left: 10px; text-align: right;">Mayor</td>
+                            <td style="padding-left: 10px">a</td>
+                            <td style="padding-left: 10px;">501 m²</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="4"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #99CD5B; width: 30px;"></td>
+                            <td style="padding-left: 10px; text-align: right;">301</td>
+                            <td style="padding-left: 10px">a</td>
+                            <td style="padding-left: 10px;">500 m²</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="4"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #CCFF66; width: 30px;"></td>
+                            <td style="padding-left: 10px; text-align: right;">201</td>
+                            <td style="padding-left: 10px">a</td>
+                            <td style="padding-left: 10px;">300 m²</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="4"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #E5E6EB; width: 30px;"></td>
+                            <td style="padding-left: 10px; text-align: right;">151</td>
+                            <td style="padding-left: 10px">a</td>
+                            <td style="padding-left: 10px;">200 m²</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="4"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #FAE6F6; width: 30px;"></td>
+                            <td style="padding-left: 10px; text-align: right;">101</td>
+                            <td style="padding-left: 10px">a</td>
+                            <td style="padding-left: 10px;">150 m²</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 4px;" colspan="4"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #D597B9; width: 30px;"></td>
+                            <td style="padding-left: 10px; text-align: right;">Menor a</td>
+                            <td style="padding-left: 10px">a</td>
+                            <td style="padding-left: 10px;">100 m²</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="rbtn-filters" style="font-size: 11px; text-align: center; padding: 10px 10px; margin-top: 5px; display:block; background-color: #e0e0e0;">
+                    <input type="radio" name="filter" value="segmento" checked="checked" />Segmento &nbsp;
+                    <input type="radio" name="filter" value="tipo" />Tipo &nbsp;
+                    <input type="radio" name="filter" value="superficie" />Superficie
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Map -->
+    <div id="map"></div>
+    <!-- end Map -->
+    <!-- Search Box -->
+    <div class="search-box-wrapper">
+        <div class="search-box-inner">
+            <div class="container">
+                <div class="search-box map">
+                    <ul class="nav nav-pills">
+                        <li class="active"><a href="#search-form-sale" data-toggle="tab">B&uacute;squeda</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="search-form-sale">
+                            <form role="form" id="form-map-sale" class="form-map form-search clearfix">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-4">
+                                        <div class="form-group">
+                                            <select id="ddl-estado" name="form-sale-country">
+                                                <option value="">Estado</option>
+                                                @foreach (var estado in Model.Estados)
+                                                {
+                                                <option value="@estado.Id">@estado.Nombre</option>
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4">
+                                        <div class="form-group">
+                                            <select id="ddl-demarcacion" title="Demarcacion" multiple="multiple" name="form-sale-city" disabled="disabled"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4">
+                                        <div class="form-group">
+                                            <select id="ddl-segmento" title="Segmento" multiple="multiple" name="form-sale-district">
+                                                @foreach (var segmento in Model.Segmentos)
+                                                {
+                                                <option value="@segmento.Id">@segmento.Descripcion</option>
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4">
+                                        <div class="form-group">
+                                            <select id="ddl-tipo" title="Tipo" multiple="multiple" name="form-tipo-construccion">
+                                                @foreach (var tipo in Model.TiposConstruccion)
+                                                {
+                                                <option value="@tipo.Id">@tipo.Descripcion</option>
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4">
+                                        <div class="form-group">
+                                            <select id="ddl-superficie" title="Superficie" multiple="multiple" name="form-sale-property-type">
+                                                <option value="1">Menor a 100 m²</option>
+                                                <option value="2">De 101 a 150 m²</option>
+                                                <option value="3">De 151 a 200 m²</option>
+                                                <option value="4">De 201 a 300 m²</option>
+                                                <option value="5">De 301 a 500 m²</option>
+                                                <option value="6">Mayor a 500 m²</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4">
+                                        <div class="form-group">
+                                            <a id="btn-buscar" class="btn btn-default">Buscar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form><!-- /#form-map -->
+                        </div><!-- /#search-form-sale -->
+                    </div><!-- /.tab-content -->
+                </div><!-- /.search-box -->
+            </div><!-- /.container -->
+        </div><!-- /.search-box-inner -->
+    </div>
+    <!-- end Search Box -->
+</div>
+<!-- end Panel Busqueda -->
+<!-- Panel Listado -->
+<div id="page-content" class="panel-listado" style="display:none;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3">
+                <section id="sidebar">
+                    <aside id="select-compair">
+                        <div style="width:100%; padding:10px; margin-top:20px; margin-bottom:10px; background-color:#1396e2; color:#ffffff;">
+                            Arrastra y Compara
+                        </div>
+                        <div id="tbl-container" class="drop-zone">
+                        </div>
+                    </aside>
+                </section>
+            </div>
+            <div id="grd-container" class="col-md-9 col-sm-9">
+            </div>
+            <input id="column-sort" type="hidden" value="desarrollo" />
+            <input id="sort-direction" type="hidden" value="ASC" />
+            <input id="item-details" type="hidden" value="" />
+            <input id="items-compared" type="hidden" value="" />
+        </div>
+    </div>
+</div>
+<!-- end Panel Listado -->
+<!-- Panel Detalles -->
+<div class="panel-detalles" style="display:none; margin-bottom:30px;">
+</div>
+<!-- end Panel Detalles -->
+<!-- Panel Comparativo -->
+<div class="panel-comparativo" style="display:none; margin-bottom:30px;">
+</div>
+<!-- end Panel Comparativo -->
+<!-- Panel Administración Usuarios -->
+<div class="panel-usuarios" style="display:none; margin-bottom:30px;">
+    <div class="container">
+        <div class="row">
+            <div id="user-register" class="col-md-4 col-sm-4">
+            </div>
+            <div id="users-admin" class="col-md-8 col-sm-8">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end Panel Administración Usuarios -->
+@section scripts
+{
+    <script type="text/javascript">
+        var _desarrollos = @Html.Raw(Json.Encode(Model.Desarrollos));
+    </script>
+    <script type="text/javascript" src="~/Scripts/view.busqueda.script.js"></script>
+    <script type="text/javascript" src="~/Scripts/view.listado.script.js"></script>
+    <script type="text/javascript" src="~/Scripts/view.detalles.script.js"></script>
+    <script type="text/javascript" src="~/Scripts/view.comparativo.script.js"></script>
+    <script type="text/javascript" src="~/Scripts/view.usuarios.script.js"></script>
+}
