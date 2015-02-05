@@ -2128,3 +2128,98 @@ Fecha: [05/01/2015 11:27:24 a.m.]
 Usuario: ecanordgz@gmail.com
 Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
 ==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:04:40 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:04:40 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:04:40 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:04:40 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:04:40 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:08:20 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:08:21 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:08:21 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:08:21 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:08:21 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:09:05 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Jabu Mapa. Se creo forma de polígono de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:09:13 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Jabu Mapa. Se elimino forma de polígono de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:09:21 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Jabu Mapa. Se creo forma de polígono de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:09:46 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Jabu Mapa. Se creo forma de polígono de selección de marcadores dentro del mapa.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:10:31 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: El usuario inicio sesión en la aplicación.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:10:31 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Estados.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:10:31 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Segmentos.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:10:31 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Tipos de Construcción.
+==============================================================================
+==============================================================================
+Fecha: [05/02/2015 01:10:31 p. m.]
+Usuario: admin@jabu.com.mx
+Mensaje: Acceso a Base de Datos. Se obtiene lista de Desarrollos.
+==============================================================================
