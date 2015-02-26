@@ -38,9 +38,11 @@
                         <td class="grd-cell-unidstotales" style="text-align:right;">@desarrollo.UnidadesTotales</td>
                         <td class="grd-cell-unidsdisponibles" style="text-align:right;">@desarrollo.UnidadesDisponibles</td>
                         <td class="grd-cell-absorcion" style="text-align:right;">@desarrollo.Absorcion</td>
-                        <td class="grd-cell-superficie" style="text-align:right;">@desarrollo.SuperficieConstruccion m²</td>
-                        <td class="grd-cell-precio" style="text-align:right;">@string.Format("{0:C}", desarrollo.PrecioActualizado)</td>
-                        <td class="grd-cell-preciometro" style="text-align:right;">@string.Format("{0:C}", desarrollo.PrecioMetroCuadrado)</td>
+                        <td class="grd-cell-superficie" style="text-align:right;">@desarrollo.SuperficieConstruccion.ToString("#,###") m²</td>
+                        <td class="grd-cell-precio" style="text-align:right;">@string.Format("{0:$0,0}", desarrollo.PrecioActualizado)</td>
+                        <td class="grd-cell-preciometro" style="text-align:right;">@string.Format("{0:$0,0}", desarrollo.PrecioMetroCuadrado)</td>
+                        @*<td class="grd-cell-precio" style="text-align:right;">@string.Format("{0:C}", desarrollo.PrecioActualizado)</td>
+                        <td class="grd-cell-preciometro" style="text-align:right;">@string.Format("{0:C}", desarrollo.PrecioMetroCuadrado)</td>*@
                     </tr>
                     _contador++;
                 }

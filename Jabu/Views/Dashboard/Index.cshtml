@@ -16,8 +16,9 @@
                             <td style="background-color: #65CAA2; width: 30px;"></td>
                             <td style="padding-left: 10px;">Residencial Plus</td>
                             <td style="padding-left: 10px;">Mayor a</td>
-                            <td style="padding-left: 10px">-</td>
-                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 6).MinimoEnPesos)</td>
+                            <td style="padding-left: 10px"> </td>
+                            <td style="padding-left: 10px;">@string.Format("{0:$0,0}", Model.Segmentos.Find(x => x.Id == 6).MinimoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 6).MinimoEnPesos)</td>*@
                             @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 6).MinimoEnPesos)</td>*@
                         </tr>
                         <tr>
@@ -26,10 +27,12 @@
                         <tr>
                             <td style="background-color: #F08B57; width: 30px;"></td>
                             <td style="padding-left: 10px;">Residencial</td>
-                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 5).MinimoEnPesos)</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:$0,0}", Model.Segmentos.Find(x => x.Id == 5).MinimoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 5).MinimoEnPesos)</td>*@
                             @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 5).MinimoEnPesos)</td>*@
                             <td style="padding-left: 10px">-</td>
-                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 5).MaximoEnPesos)</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:$0,0}", Model.Segmentos.Find(x => x.Id == 5).MaximoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 5).MaximoEnPesos)</td>*@
                             @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 5).MaximoEnPesos)</td>*@
                         </tr>
                         <tr>
@@ -38,10 +41,12 @@
                         <tr>
                             <td style="background-color: #89A7DB; width: 30px;"></td>
                             <td style="padding-left: 10px;">Media</td>
-                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 4).MinimoEnPesos)</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:$0,0}", Model.Segmentos.Find(x => x.Id == 4).MinimoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 4).MinimoEnPesos)</td>*@
                             @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 4).MinimoEnPesos)</td>*@
                             <td style="padding-left: 10px">-</td>
-                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 4).MaximoEnPesos)</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:$0,0}", Model.Segmentos.Find(x => x.Id == 4).MaximoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 4).MaximoEnPesos)</td>*@
                             @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 4).MaximoEnPesos)</td>*@
                         </tr>
                         <tr>
@@ -50,10 +55,12 @@
                         <tr>
                             <td style="background-color: #E08FC2; width: 30px;"></td>
                             <td style="padding-left: 10px;">Tradicional</td>
-                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 3).MinimoEnPesos)</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:$0,0}", Model.Segmentos.Find(x => x.Id == 3).MinimoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 3).MinimoEnPesos)</td>*@
                             @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 3).MinimoEnPesos)</td>*@
                             <td style="padding-left: 10px">-</td>
-                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 3).MaximoEnPesos)</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:$0,0}", Model.Segmentos.Find(x => x.Id == 3).MaximoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 3).MaximoEnPesos)</td>*@
                             @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 3).MaximoEnPesos)</td>*@
                         </tr>
                         <tr>
@@ -62,10 +69,12 @@
                         <tr>
                             <td style="background-color: #A7D034; width: 30px;"></td>
                             <td style="padding-left: 10px;">Popular</td>
-                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 2).MinimoEnPesos)</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:$0,0}", Model.Segmentos.Find(x => x.Id == 2).MinimoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 2).MinimoEnPesos)</td>*@
                             @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 2).MinimoEnPesos)</td>*@
                             <td style="padding-left: 10px">-</td>
-                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 2).MaximoEnPesos)</td>
+                            <td style="padding-left: 10px;">@string.Format("{0:$0,0}", Model.Segmentos.Find(x => x.Id == 2).MaximoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 2).MaximoEnPesos)</td>*@
                             @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 2).MaximoEnPesos)</td>*@
                         </tr>
                         <tr>
@@ -75,8 +84,9 @@
                             <td style="background-color: #FBC938; width: 30px;"></td>
                             <td style="padding-left: 10px;">Econ&oacute;mica</td>
                             <td style="padding-left: 10px;">Menor a</td>
-                            <td style="padding-left: 10px">-</td>
-                            <td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 1).MaximoEnPesos)</td>
+                            <td style="padding-left: 10px"> </td>
+                            <td style="padding-left: 10px;">@string.Format("{0:$0,0}", Model.Segmentos.Find(x => x.Id == 1).MaximoEnPesos)</td>
+                            @*<td style="padding-left: 10px;">@string.Format("{0:C}", Model.Segmentos.Find(x => x.Id == 1).MaximoEnPesos)</td>*@
                             @*<td style="padding-left: 10px;">$@decimal.ToInt32(Model.Segmentos.Find(x => x.Id == 1).MaximoEnPesos)</td>*@
                         </tr>
                     </table>

@@ -203,7 +203,7 @@
 
                     var _ids = $("#items-compared").val();
 
-                    if (_ids != "" && _ids.split(",").length == 3) {
+                    if (_ids != "" && _ids.split(",").length >= 2) {
 
                         fn_LoadComparativoInitialize();
 
@@ -224,7 +224,7 @@
 
                     }
                     else {
-                        alert("Si desea puede ver el comparativo seleccionando tres elementos dentro del Listado.")
+                        alert("Si desea puede ver el comparativo seleccionando al menos dos elementos dentro del listado.")
                     }
 
                     break;

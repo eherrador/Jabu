@@ -10,7 +10,7 @@
             <div style="background-color:#fff; padding:5px; font-size:12px;">
                 <table class="tbl-desarrollos-comparativo">
                     <tbody>
-                        @foreach (var DatosGeneralesItem in Model.ListDatosGenerales)
+                        @foreach (var DatosGeneralesItem in Model.ListDatosGenerales2)
                         {
                             if (DatosGeneralesItem.Item1.Titulo == "Nombre")
                             {
@@ -18,7 +18,7 @@
                                     <td class="th-desarrollos-comparativo">@DatosGeneralesItem.Item1.Valor</td>
                                     <td class="th-desarrollos-comparativo">@DatosGeneralesItem.Item2.Valor</td>
                                     <td class="th-desarrollos-comparativo">@DatosGeneralesItem.Item3.Valor</td>
-                                    <td class="th-desarrollos-comparativo">@DatosGeneralesItem.Item4.Valor</td>
+
                                 </tr>
                             }
                             else if (DatosGeneralesItem.Item1.Titulo == "Segmento")
@@ -36,7 +36,6 @@
                                     <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item1.Titulo</span>@Html.Raw(_segmento)</td>
                                     <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item2.Titulo</span>@DatosGeneralesItem.Item2.Valor</td>
                                     <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item3.Titulo</span>@DatosGeneralesItem.Item3.Valor</td>
-                                    <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item4.Titulo</span>@DatosGeneralesItem.Item4.Valor</td>
                                 </tr>
                             }
                             else if (DatosGeneralesItem.Item1.Titulo == "Tipo")
@@ -54,7 +53,6 @@
                                     <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item1.Titulo</span>@Html.Raw(_tipo)</td>
                                     <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item2.Titulo</span>@DatosGeneralesItem.Item2.Valor</td>
                                     <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item3.Titulo</span>@DatosGeneralesItem.Item3.Valor</td>
-                                    <td style="vertical-align: top;"><span>@DatosGeneralesItem.Item4.Titulo</span>@DatosGeneralesItem.Item4.Valor</td>
                                 </tr>
                             }
                             else
@@ -63,7 +61,6 @@
                                     <td><span>@DatosGeneralesItem.Item1.Titulo</span>@DatosGeneralesItem.Item1.Valor</td>
                                     <td><span>@DatosGeneralesItem.Item2.Titulo</span>@DatosGeneralesItem.Item2.Valor</td>
                                     <td><span>@DatosGeneralesItem.Item3.Titulo</span>@DatosGeneralesItem.Item3.Valor</td>
-                                    <td><span>@DatosGeneralesItem.Item4.Titulo</span>@DatosGeneralesItem.Item4.Valor</td>
                                 </tr>
                             }
                         }
@@ -71,9 +68,8 @@
                             <td class="th-desarrollos-comparativo">Servicios</td>
                             <td class="th-desarrollos-comparativo">Servicios</td>
                             <td class="th-desarrollos-comparativo">Servicios</td>
-                            <td class="th-desarrollos-comparativo">Servicios</td>
                         </tr>
-                        @foreach (var ServiciosItem in Model.ListServicios)
+                        @foreach (var ServiciosItem in Model.ListServicios2)
                         {
                             <tr>
                                 @if (ServiciosItem.Item1.Valor == "0")
@@ -100,23 +96,14 @@
                                 {
                                     <td><i class="fa fa-check-circle"></i>@ServiciosItem.Item3.Titulo</td>
                                 }
-                                @if (ServiciosItem.Item4.Valor == "0")
-                                {
-                                    <td><i class="fa fa-times-circle"></i>@ServiciosItem.Item4.Titulo</td>
-                                }
-                                else
-                                {
-                                    <td><i class="fa fa-check-circle"></i>@ServiciosItem.Item4.Titulo</td>
-                                }
                             </tr>
                         }
                         <tr>
                             <td class="th-desarrollos-comparativo">Amenidades</td>
                             <td class="th-desarrollos-comparativo">Amenidades</td>
                             <td class="th-desarrollos-comparativo">Amenidades</td>
-                            <td class="th-desarrollos-comparativo">Amenidades</td>
                         </tr>
-                        @foreach (var AmenidadesItem in Model.ListAmenidades)
+                        @foreach (var AmenidadesItem in Model.ListAmenidades2)
                         {
                             <tr>
                                 @if (AmenidadesItem.Item1.Valor == "0")
@@ -142,14 +129,6 @@
                                 else
                                 {
                                     <td><i class="fa fa-check-circle"></i>@AmenidadesItem.Item3.Titulo</td>
-                                }
-                                @if (AmenidadesItem.Item4.Valor == "0")
-                                {
-                                    <td><i class="fa fa-times-circle"></i>@AmenidadesItem.Item4.Titulo</td>
-                                }
-                                else
-                                {
-                                    <td><i class="fa fa-check-circle"></i>@AmenidadesItem.Item4.Titulo</td>
                                 }
                             </tr>
                         }

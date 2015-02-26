@@ -55,10 +55,10 @@ function createHomepageGoogleMap(_latitude, _longitude, _desarrollos, _filtro) {
                             '<td style="font-weight:bold;"> Superficie:</td>' +
                             '<td style="padding-left:10px;">' + _desarrollos[i].SuperficieConstruccion + '</td>' +
                         '</tr>' +
-                        '<tr>' +
-                            '<td style="font-weight:bold;"> Inicio:</td>' +
-                            '<td style="padding-left:10px;">' + _desarrollos[i].FechaInicioVentas + '</td>' +
-                        '</tr>' +
+                        //'<tr>' +
+                        //    '<td style="font-weight:bold;"> Inicio:</td>' +
+                        //    '<td style="padding-left:10px;">' + _desarrollos[i].FechaInicioVentas + '</td>' +
+                        //'</tr>' +
                         '<tr>' +
                             '<td style="font-weight:bold;"> Unidades Totales:</td>' +
                             '<td style="padding-left:10px;">' + _desarrollos[i].UnidadesTotales + '</td>' +
@@ -495,7 +495,8 @@ function updatePoints(shape, markers, shapeType) {
     if (shape) {
         var load_gritter = $.gritter.add({
             sticky: true,
-            title: 'Cargando Sumario y Tabla Comparativa',
+            //title: 'Cargando Sumario y Tabla Comparativa',
+            title: 'Cargando resum&eacute;n del &aacute;rea',
             text: '<table style="width: 100%;"><tr><td style="text-align: center;"><img src="/Content/images/loading.gif" /></td></tr></table>'
         });
     }
@@ -571,10 +572,12 @@ function updatePoints(shape, markers, shapeType) {
         var titleGritter = '';
         switch (shapeType) {
             case 'circle':
-                titleGritter = 'Sumario de promedios y totales en un radio de ' + String(parseFloat(shape.getRadius() / 1000).toFixed(4)) + ' Km';
+                //titleGritter = 'Sumario de promedios y totales en un radio de ' + String(parseFloat(shape.getRadius() / 1000).toFixed(4)) + ' Km';
+                titleGritter = 'Resum&eacute;n del &aacute;rea en un radio de ' + String(parseFloat(shape.getRadius() / 1000).toFixed(4)) + ' Km';
                 break;
             case 'polygon':
-                titleGritter = 'Sumario de promedios y totales en un &aacute;rea de ' + String(parseFloat(google.maps.geometry.spherical.computeArea(shape.getPath().getArray()) / (1000 * 1000)).toFixed(2)) + 'Km&sup2';
+                //titleGritter = 'Sumario de promedios y totales en un &aacute;rea de ' + String(parseFloat(google.maps.geometry.spherical.computeArea(shape.getPath().getArray()) / (1000 * 1000)).toFixed(2)) + 'Km&sup2';
+                titleGritter = 'Resum&eacute;n del &aacute;rea ' + String(parseFloat(google.maps.geometry.spherical.computeArea(shape.getPath().getArray()) / (1000 * 1000)).toFixed(2)) + 'Km&sup2';
                 break;
         }
 
@@ -585,11 +588,16 @@ function updatePoints(shape, markers, shapeType) {
         _precioActualizadoPromedio = parseFloat(_acumPrecioActualizado / countDesarrollosInShape);
         _precioMetroCuadradoPromedio = parseFloat(_acumPrecioMetroCuadrado / countDesarrollosInShape);
 
-        var precioInicialPromedioCurrency = $.formatNumber(String(_precioInicialPromedio), { format: "#,###.00", locale: "us" });
-        var precioActualizadoPromedioCurrency = $.formatNumber(String(_precioActualizadoPromedio), { format: "#,###.00", locale: "us" });
-        var precioMetroCuadradoPromedioCurrency = $.formatNumber(String(_precioMetroCuadradoPromedio), { format: "#,###.00", locale: "us" });
-        var menorPrecioInicialCurrency = $.formatNumber(String(_menorPrecioInicial), { format: "#,###.00", locale: "us" });
-        var mayorPrecioInicialCurrency = $.formatNumber(String(_mayorPrecioInicial), { format: "#,###.00", locale: "us" });
+        //var precioInicialPromedioCurrency = $.formatNumber(String(_precioInicialPromedio), { format: "#,###.00", locale: "us" });
+        //var precioActualizadoPromedioCurrency = $.formatNumber(String(_precioActualizadoPromedio), { format: "#,###.00", locale: "us" });
+        //var precioMetroCuadradoPromedioCurrency = $.formatNumber(String(_precioMetroCuadradoPromedio), { format: "#,###.00", locale: "us" });
+        //var menorPrecioInicialCurrency = $.formatNumber(String(_menorPrecioInicial), { format: "#,###.00", locale: "us" });
+        //var mayorPrecioInicialCurrency = $.formatNumber(String(_mayorPrecioInicial), { format: "#,###.00", locale: "us" });
+        var precioInicialPromedioCurrency = $.formatNumber(String(_precioInicialPromedio), { format: "#,###", locale: "us" });
+        var precioActualizadoPromedioCurrency = $.formatNumber(String(_precioActualizadoPromedio), { format: "#,###", locale: "us" });
+        var precioMetroCuadradoPromedioCurrency = $.formatNumber(String(_precioMetroCuadradoPromedio), { format: "#,###", locale: "us" });
+        var menorPrecioInicialCurrency = $.formatNumber(String(_menorPrecioInicial), { format: "#,###", locale: "us" });
+        var mayorPrecioInicialCurrency = $.formatNumber(String(_mayorPrecioInicial), { format: "#,###", locale: "us" });
 
         var textGritterTableFirst = '<table>'
                                   + '<tr><th style="text-align:right;">Unidades</th><th style="text-align:right; width:120px;">Total</th></tr>'
@@ -597,8 +605,8 @@ function updatePoints(shape, markers, shapeType) {
                                   + '<tr><td style="text-align:right;">Vendidas: </td><td style="text-align:right;">' + String(_acumUnidadesVendidas) + '</td></tr>'
                                   + '<tr><td style="text-align:right;">En Inventario: </td><td style="text-align:right;">' + String(_acumUnidadesDisponibles) + '</td></tr>'
                                   + '<tr><th style="text-align:right;">Promedio</th><th></th></tr>'
-                                  + '<tr><td style="text-align:right;">Absorci&oacute;n:</td><td style="text-align:right;">' + String(_absorcionPromedio.toFixed(2)) + '</td></tr>'
-                                  + '<tr><td style="text-align:right;">Superficie:</td><td style="text-align:right;">' + String(_superficiePromedio.toFixed(2)) + ' m&sup2;</td></tr>'
+                                  + '<tr><td style="text-align:right;">Absorci&oacute;n:</td><td style="text-align:right;">' + String(_absorcionPromedio.toFixed(0)) + '</td></tr>'
+                                  + '<tr><td style="text-align:right;">Superficie:</td><td style="text-align:right;">' + String(_superficiePromedio.toFixed(0)) + ' m&sup2;</td></tr>'
                                   + '<tr><td style="text-align:right;">Precio Por Unidad:</td><td style="text-align:right;">$' + String(precioInicialPromedioCurrency) + '</td></tr>'
                                   + '<tr><td style="text-align:right;">Precio Por m&sup2:</td><td style="text-align:right;">$' + String(precioMetroCuadradoPromedioCurrency) + '</td></tr>'
                                   + '</table>';
@@ -607,7 +615,7 @@ function updatePoints(shape, markers, shapeType) {
                                    + '<tr><td style="text-align:right;">Precio: </td><td style="text-align:right;">$' + String(menorPrecioInicialCurrency) + ' </td><td style="text-align:right;">$' + String(mayorPrecioInicialCurrency) + '</td></tr>'
                                    + '<tr><td style="text-align:right;">Absorci&oacute;n: </td><td style="text-align:right;">' + String(_menorAbsorcion) + ' </td><td style="text-align:right;">' + String(_mayorAbsorcion) + ' </td></tr>'
                                    + '<tr><td style="text-align:right;">Unidades: </td><td style="text-align:right;">' + String(_menorUnidadesTotales) + ' </td><td style="text-align:right;">' + String(_mayorUnidadesTotales) + '</td></tr>'
-                                   + '<tr><td style="text-align:right;">Superficie: </td><td style="text-align:right;">' + String(_menorSuperficie.toFixed(2)) + ' m&sup2</td><td style="text-align:right;">' + String(_mayorSuperficie.toFixed(2)) + ' m&sup2</td></tr>'
+                                   + '<tr><td style="text-align:right;">Superficie: </td><td style="text-align:right;">' + String(_menorSuperficie.toFixed(0)) + ' m&sup2</td><td style="text-align:right;">' + String(_mayorSuperficie.toFixed(0)) + ' m&sup2</td></tr>'
                                    + '</table>';
 
         setTimeout(function () {

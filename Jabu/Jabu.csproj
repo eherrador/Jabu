@@ -599,6 +599,7 @@
     <Content Include="Scripts\view.detalles.script.js" />
     <Content Include="Scripts\view.listado.script.js" />
     <Content Include="Scripts\view.usuarios.script.js" />
+    <Content Include="Views\Dashboard\_PartialDesarrollosComparativo.cshtml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -645,9 +646,9 @@
     <Content Include="Views\Dashboard\_PartialGridDesarrollos.cshtml" />
     <Content Include="Views\Dashboard\Index.cshtml" />
     <Content Include="Views\Dashboard\_PartialDesarrolloDetalles.cshtml" />
-    <Content Include="Views\Dashboard\_PartialDesarrollosComparativo.cshtml" />
     <Content Include="Views\Account\_PartialRegister.cshtml" />
     <Content Include="Views\Account\_PartialAdminUsuarios.cshtml" />
+    <Content Include="Views\Dashboard\_PartialDesarrollosComparativo2.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

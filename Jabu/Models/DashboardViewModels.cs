@@ -596,7 +596,6 @@ namespace WebAppMvcJabu.Models
                 using (SqlConnection cnn = new SqlConnection(jdbConnString.JabuCnnString))
                 {
                     cnn.Open();
-
                     using (SqlCommand cmdDesarrolloDetalles = cnn.CreateCommand())
                     {
                         cmdDesarrolloDetalles.CommandText = "usp_Detalles_Get_DesarrolloDetalles";
@@ -708,21 +707,24 @@ namespace WebAppMvcJabu.Models
                                 case "Producto_PrecioInicial":
                                     _DesarrolloDatosGenerales = new DesarrolloDatosGenerales();
                                     _DesarrolloDatosGenerales.Titulo = "Precio Inicial";
-                                    _DesarrolloDatosGenerales.Valor = string.Format("{0:C}", Convert.ToDecimal(dr.GetString(dr.GetOrdinal("Valor"))));
+                                    _DesarrolloDatosGenerales.Valor = string.Format("{0:$0,0}", Convert.ToDecimal(dr.GetString(dr.GetOrdinal("Valor"))));
+                                    //_DesarrolloDatosGenerales.Valor = string.Format("{0:C}", Convert.ToDecimal(dr.GetString(dr.GetOrdinal("Valor"))));
 
                                     ListDatosGenerales.Add(_DesarrolloDatosGenerales);
                                     break;
                                 case "Producto_PrecioActualizado":
                                     _DesarrolloDatosGenerales = new DesarrolloDatosGenerales();
                                     _DesarrolloDatosGenerales.Titulo = "Precio Actualizado";
-                                    _DesarrolloDatosGenerales.Valor = string.Format("{0:C}", Convert.ToDecimal(dr.GetString(dr.GetOrdinal("Valor"))));
+                                    _DesarrolloDatosGenerales.Valor = string.Format("{0:$0,0}", Convert.ToDecimal(dr.GetString(dr.GetOrdinal("Valor"))));
+                                    //_DesarrolloDatosGenerales.Valor = string.Format("{0:C}", Convert.ToDecimal(dr.GetString(dr.GetOrdinal("Valor"))));
 
                                     ListDatosGenerales.Add(_DesarrolloDatosGenerales);
                                     break;
                                 case "Producto_PrecioMetroCuadrado":
                                     _DesarrolloDatosGenerales = new DesarrolloDatosGenerales();
                                     _DesarrolloDatosGenerales.Titulo = "Precio m²";
-                                    _DesarrolloDatosGenerales.Valor = string.Format("{0:C}", Convert.ToDecimal(dr.GetString(dr.GetOrdinal("Valor"))));
+                                    _DesarrolloDatosGenerales.Valor = string.Format("{0:$0,0}", Convert.ToDecimal(dr.GetString(dr.GetOrdinal("Valor"))));
+                                    //_DesarrolloDatosGenerales.Valor = string.Format("{0:C}", Convert.ToDecimal(dr.GetString(dr.GetOrdinal("Valor"))));
 
                                     ListDatosGenerales.Add(_DesarrolloDatosGenerales);
                                     break;
@@ -958,9 +960,11 @@ namespace WebAppMvcJabu.Models
                             }
                         }
                     }
+                    cnn.Close();
 
                     Utils.WriteLogMessage(HttpContext.Current.User.Identity.Name, "Acceso a Base de Datos. Se obtiene el detalle del Desarrollo seleccionado.");
 
+                    cnn.Open();
                     using (SqlCommand cmdDesarrolloPrototipos = cnn.CreateCommand())
                     {
                         cmdDesarrolloPrototipos.CommandText = "usp_Detalles_Get_DesarrolloPrototipos";
@@ -982,7 +986,7 @@ namespace WebAppMvcJabu.Models
                             ListPrototipos.Add(_DesarrolloPrototipos);
                         }
                     }
-
+                    cnn.Close();
                     Utils.WriteLogMessage(HttpContext.Current.User.Identity.Name, "Acceso a Base de Datos. Se obtienen los Prototipos del Desarrollo seleccionado.");
                 }
 
@@ -1008,15 +1012,27 @@ namespace WebAppMvcJabu.Models
                                  DesarrolloDatosGenerales,
                                  DesarrolloDatosGenerales>> ListDatosGenerales { get; set; }
 
+        public IEnumerable<Tuple<DesarrolloDatosGenerales,
+                                 DesarrolloDatosGenerales,
+                                 DesarrolloDatosGenerales>> ListDatosGenerales2 { get; set; }
+
         public IEnumerable<Tuple<DesarrolloServicios,
                                  DesarrolloServicios,
                                  DesarrolloServicios,
                                  DesarrolloServicios>> ListServicios { get; set; }
 
+        public IEnumerable<Tuple<DesarrolloServicios,
+                                 DesarrolloServicios,
+                                 DesarrolloServicios>> ListServicios2 { get; set; }
+
         public IEnumerable<Tuple<DesarrolloAmenidades,
                                  DesarrolloAmenidades,
                                  DesarrolloAmenidades,
                                  DesarrolloAmenidades>> ListAmenidades { get; set; }
+
+        public IEnumerable<Tuple<DesarrolloAmenidades,
+                                 DesarrolloAmenidades,
+                                 DesarrolloAmenidades>> ListAmenidades2 { get; set; }
 
         public void CargaListasComparativo(int id_desarrollo, out List<DesarrolloDatosGenerales> ListDatosGenerales,
                                                               out List<DesarrolloServicios> ListServicios,
@@ -1870,6 +1886,34 @@ namespace WebAppMvcJabu.Models
                             hasThird ? thirdEnumerator.Current : default(V),
                             hasFourth ? fourthEnumerator.Current : default(Z)
                         );
+                }
+            }
+        }
+
+        public static IEnumerable<Tuple<T, U, V>> CombineWith2<T, U, V>(this IEnumerable<T> first, IEnumerable<U> second, IEnumerable<V> third)
+        {
+            using (var firstEnumerator = first.GetEnumerator())
+            using (var secondEnumerator = second.GetEnumerator())
+            using (var thirdEnumerator = third.GetEnumerator())
+            {
+                bool hasFirst = true;
+                bool hasSecond = true;
+                bool hasThird = true;
+
+                while (
+                    // Only call MoveNext if it didn't fail last time.
+                    (hasFirst && (hasFirst = firstEnumerator.MoveNext()))
+                    | // WARNING: Do NOT change to ||.
+                    (hasSecond && (hasSecond = secondEnumerator.MoveNext()))
+                    |
+                    (hasThird && (hasThird = thirdEnumerator.MoveNext()))
+                    )
+                {
+                    yield return Tuple.Create(
+                            hasFirst ? firstEnumerator.Current : default(T),
+                            hasSecond ? secondEnumerator.Current : default(U),
+                            hasThird ? thirdEnumerator.Current : default(V)
+                    );
                 }
             }
         }

@@ -147,9 +147,9 @@ namespace WebAppMvcJabu.Controllers
             List<List<DesarrolloServicios>> ListsServiciosMaster = new List<List<DesarrolloServicios>>();
             List<List<DesarrolloAmenidades>> ListsAmenidadesMaster = new List<List<DesarrolloAmenidades>>();
 
-            List<DesarrolloDatosGenerales> OutListDatosGenerales;
-            List<DesarrolloServicios> OutListServicios;
-            List<DesarrolloAmenidades> OutListAmenidades;
+            List<DesarrolloDatosGenerales> OutListDatosGenerales = new List<DesarrolloDatosGenerales>();
+            List<DesarrolloServicios> OutListServicios = new List<DesarrolloServicios>();
+            List<DesarrolloAmenidades> OutListAmenidades = new List<DesarrolloAmenidades>();
 
             ComparativoViewModels vm = new ComparativoViewModels();
 
@@ -158,37 +158,79 @@ namespace WebAppMvcJabu.Controllers
             ListsServiciosMaster.Add(OutListServicios);
             ListsAmenidadesMaster.Add(OutListAmenidades);
 
-            vm.CargaListasComparativo(int.Parse(IdsComparativo.Split(',')[0]), out OutListDatosGenerales, out OutListServicios, out OutListAmenidades);
-            ListsDatosGeneralesMaster.Add(OutListDatosGenerales);
-            ListsServiciosMaster.Add(OutListServicios);
-            ListsAmenidadesMaster.Add(OutListAmenidades);
+            if (IdsComparativo.Split(',').Length == 3)
+            {
+                vm.CargaListasComparativo(int.Parse(IdsComparativo.Split(',')[0]), out OutListDatosGenerales, out OutListServicios, out OutListAmenidades);
+                ListsDatosGeneralesMaster.Add(OutListDatosGenerales);
+                ListsServiciosMaster.Add(OutListServicios);
+                ListsAmenidadesMaster.Add(OutListAmenidades);
 
-            vm.CargaListasComparativo(int.Parse(IdsComparativo.Split(',')[1]), out OutListDatosGenerales, out OutListServicios, out OutListAmenidades);
-            ListsDatosGeneralesMaster.Add(OutListDatosGenerales);
-            ListsServiciosMaster.Add(OutListServicios);
-            ListsAmenidadesMaster.Add(OutListAmenidades);
+                vm.CargaListasComparativo(int.Parse(IdsComparativo.Split(',')[1]), out OutListDatosGenerales, out OutListServicios, out OutListAmenidades);
+                ListsDatosGeneralesMaster.Add(OutListDatosGenerales);
+                ListsServiciosMaster.Add(OutListServicios);
+                ListsAmenidadesMaster.Add(OutListAmenidades);
 
-            vm.CargaListasComparativo(int.Parse(IdsComparativo.Split(',')[2]), out OutListDatosGenerales, out OutListServicios, out OutListAmenidades);
-            ListsDatosGeneralesMaster.Add(OutListDatosGenerales);
-            ListsServiciosMaster.Add(OutListServicios);
-            ListsAmenidadesMaster.Add(OutListAmenidades);
+                vm.CargaListasComparativo(int.Parse(IdsComparativo.Split(',')[2]), out OutListDatosGenerales, out OutListServicios, out OutListAmenidades);
+                ListsDatosGeneralesMaster.Add(OutListDatosGenerales);
+                ListsServiciosMaster.Add(OutListServicios);
+                ListsAmenidadesMaster.Add(OutListAmenidades);
 
-            vm.ListDatosGenerales = Utils.CombineWith(ListsDatosGeneralesMaster.ToArray()[0].ToList(),
-                                                      ListsDatosGeneralesMaster.ToArray()[1].ToList(),
-                                                      ListsDatosGeneralesMaster.ToArray()[2].ToList(),
-                                                      ListsDatosGeneralesMaster.ToArray()[3].ToList());
+                //if (IdsComparativo.Split(',').Length == 3)
+                //{
+                    //vm.CargaListasComparativo(int.Parse(IdsComparativo.Split(',')[2]), out OutListDatosGenerales, out OutListServicios, out OutListAmenidades);
+                    //ListsDatosGeneralesMaster.Add(OutListDatosGenerales);
+                    //ListsServiciosMaster.Add(OutListServicios);
+                    //ListsAmenidadesMaster.Add(OutListAmenidades);
+                //}
 
-            vm.ListServicios = Utils.CombineWith(ListsServiciosMaster.ToArray()[0].ToList(),
-                                                 ListsServiciosMaster.ToArray()[1].ToList(),
-                                                 ListsServiciosMaster.ToArray()[2].ToList(),
-                                                 ListsServiciosMaster.ToArray()[3].ToList());
+                vm.ListDatosGenerales = Utils.CombineWith(ListsDatosGeneralesMaster.ToArray()[0].ToList(),
+                                                          ListsDatosGeneralesMaster.ToArray()[1].ToList(),
+                                                          ListsDatosGeneralesMaster.ToArray()[2].ToList(),
+                                                          ListsDatosGeneralesMaster.ToArray()[3].ToList());
 
-            vm.ListAmenidades = Utils.CombineWith(ListsAmenidadesMaster.ToArray()[0].ToList(),
-                                                  ListsAmenidadesMaster.ToArray()[1].ToList(),
-                                                  ListsAmenidadesMaster.ToArray()[2].ToList(),
-                                                  ListsAmenidadesMaster.ToArray()[3].ToList());
+                vm.ListServicios = Utils.CombineWith(ListsServiciosMaster.ToArray()[0].ToList(),
+                                                     ListsServiciosMaster.ToArray()[1].ToList(),
+                                                     ListsServiciosMaster.ToArray()[2].ToList(),
+                                                     ListsServiciosMaster.ToArray()[3].ToList());
 
-            return PartialView("_PartialDesarrollosComparativo", vm);
+                vm.ListAmenidades = Utils.CombineWith(ListsAmenidadesMaster.ToArray()[0].ToList(),
+                                                      ListsAmenidadesMaster.ToArray()[1].ToList(),
+                                                      ListsAmenidadesMaster.ToArray()[2].ToList(),
+                                                      ListsAmenidadesMaster.ToArray()[3].ToList());
+            }
+            else
+            {
+                vm.CargaListasComparativo(int.Parse(IdsComparativo.Split(',')[0]), out OutListDatosGenerales, out OutListServicios, out OutListAmenidades);
+                ListsDatosGeneralesMaster.Add(OutListDatosGenerales);
+                ListsServiciosMaster.Add(OutListServicios);
+                ListsAmenidadesMaster.Add(OutListAmenidades);
+
+                vm.CargaListasComparativo(int.Parse(IdsComparativo.Split(',')[1]), out OutListDatosGenerales, out OutListServicios, out OutListAmenidades);
+                ListsDatosGeneralesMaster.Add(OutListDatosGenerales);
+                ListsServiciosMaster.Add(OutListServicios);
+                ListsAmenidadesMaster.Add(OutListAmenidades);
+
+                vm.ListDatosGenerales2 = Utils.CombineWith2(ListsDatosGeneralesMaster.ToArray()[0].ToList(),
+                                                          ListsDatosGeneralesMaster.ToArray()[1].ToList(),
+                                                          ListsDatosGeneralesMaster.ToArray()[2].ToList());
+
+                vm.ListServicios2 = Utils.CombineWith2(ListsServiciosMaster.ToArray()[0].ToList(),
+                                                     ListsServiciosMaster.ToArray()[1].ToList(),
+                                                     ListsServiciosMaster.ToArray()[2].ToList());
+
+                vm.ListAmenidades2 = Utils.CombineWith2(ListsAmenidadesMaster.ToArray()[0].ToList(),
+                                                      ListsAmenidadesMaster.ToArray()[1].ToList(),
+                                                      ListsAmenidadesMaster.ToArray()[2].ToList());
+            }
+
+            string regreso = string.Empty;
+ 
+            if (ListsDatosGeneralesMaster.Count == 4)
+               regreso = "_PartialDesarrollosComparativo";
+            if (ListsDatosGeneralesMaster.Count == 3)
+                regreso = "_PartialDesarrollosComparativo2";
+
+            return PartialView(regreso, vm);
         }
 
         #endregion
