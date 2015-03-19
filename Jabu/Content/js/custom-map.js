@@ -573,11 +573,11 @@ function updatePoints(shape, markers, shapeType) {
         switch (shapeType) {
             case 'circle':
                 //titleGritter = 'Sumario de promedios y totales en un radio de ' + String(parseFloat(shape.getRadius() / 1000).toFixed(4)) + ' Km';
-                titleGritter = 'Resum&eacute;n del &aacute;rea en un radio de ' + String(parseFloat(shape.getRadius() / 1000).toFixed(4)) + ' Km';
+                titleGritter = 'Resum&eacute;n del &aacute;rea en un radio de ' + String(parseFloat(shape.getRadius() / 1000).toFixed(0)) + ' Km';
                 break;
             case 'polygon':
                 //titleGritter = 'Sumario de promedios y totales en un &aacute;rea de ' + String(parseFloat(google.maps.geometry.spherical.computeArea(shape.getPath().getArray()) / (1000 * 1000)).toFixed(2)) + 'Km&sup2';
-                titleGritter = 'Resum&eacute;n del &aacute;rea ' + String(parseFloat(google.maps.geometry.spherical.computeArea(shape.getPath().getArray()) / (1000 * 1000)).toFixed(2)) + 'Km&sup2';
+                titleGritter = 'Resum&eacute;n del &aacute;rea ' + String(parseFloat(google.maps.geometry.spherical.computeArea(shape.getPath().getArray()) / (1000 * 1000)).toFixed(0)) + 'Km&sup2';
                 break;
         }
 

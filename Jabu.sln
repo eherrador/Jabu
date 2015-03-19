@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jabu", "Jabu\Jabu.csproj", "{F635469F-24FD-48D2-83A7-777D718D83A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgotamientoInventario", "AgotamientoInventario\AgotamientoInventario.csproj", "{6586EFCC-2DF4-44E0-9950-C8BA0C3307E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F635469F-24FD-48D2-83A7-777D718D83A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F635469F-24FD-48D2-83A7-777D718D83A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F635469F-24FD-48D2-83A7-777D718D83A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6586EFCC-2DF4-44E0-9950-C8BA0C3307E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6586EFCC-2DF4-44E0-9950-C8BA0C3307E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6586EFCC-2DF4-44E0-9950-C8BA0C3307E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6586EFCC-2DF4-44E0-9950-C8BA0C3307E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
